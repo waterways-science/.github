@@ -10,4 +10,4 @@ waterways. An NCEAS working group.
 3. Water quality linkages of residential canals and HABs
 4. Ecosystem indicators for monitoring and restoration
 
-Working group members: start at the Waterways Master Plan (link to be added).
+Working group members: start at the NCEAS Waterways Project (link to be added).
