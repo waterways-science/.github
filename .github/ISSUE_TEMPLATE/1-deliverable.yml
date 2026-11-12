@@ -1,0 +1,35 @@
+name: Deliverable
+description: A product from Table 1 of the proposal, such as a paper, dataset, app, or brief
+type: Deliverable
+projects: ["waterways-science/6"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A Deliverable is one product the working group will produce. After you
+        submit it, set its **Target date** and **Milestone** in the sidebar, then
+        add its tasks as sub-issues.
+  - type: textarea
+    id: product
+    attributes:
+      label: Product
+      description: What will exist when this is done?
+      placeholder: e.g., Peer-reviewed systematic map protocol
+    validations:
+      required: true
+  - type: input
+    id: lead
+    attributes:
+      label: Lead
+      description: Who is responsible? Use their GitHub username.
+      placeholder: "@username"
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+      description: How will we know it is finished? For example, submitted to a journal, archived, or live online.
+  - type: input
+    id: table1
+    attributes:
+      label: Table 1 product
+      description: Which product in Table 1 of the proposal is this? Leave blank if it is new.
