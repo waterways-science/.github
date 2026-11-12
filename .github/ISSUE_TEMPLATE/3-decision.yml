@@ -1,0 +1,33 @@
+name: Decision
+description: A question the group needs to settle
+type: Decision
+projects: ["waterways-science/6"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        When the group decides, close this issue with a final comment that
+        records what was decided and why. Add the `next-meeting` label if it
+        should be discussed at the next working group meeting.
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What needs to be decided?
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: Options
+      description: The choices on the table, with any pros and cons
+  - type: input
+    id: decider
+    attributes:
+      label: Who decides
+      description: A person, a team (for example @waterways-science/hab-linkages), or the whole group
+  - type: input
+    id: deadline
+    attributes:
+      label: Decide by
+      description: A date or a meeting, such as WGM2
