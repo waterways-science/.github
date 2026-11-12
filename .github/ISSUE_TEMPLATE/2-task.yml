@@ -1,0 +1,27 @@
+name: Task
+description: One piece of work with one owner, usually part of a Deliverable
+type: Task
+projects: ["waterways-science/6"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        After you submit, attach this task to its Deliverable as a sub-issue,
+        assign one owner, and set a **Target date**.
+  - type: textarea
+    id: what
+    attributes:
+      label: What needs doing
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+      description: How will we know this is finished?
+  - type: input
+    id: deliverable
+    attributes:
+      label: Deliverable
+      description: The Deliverable this task belongs to (paste its link or number)
+      placeholder: "#12"
